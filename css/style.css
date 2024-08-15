@@ -1,18 +1,18 @@
 body {
   background-color: black;
-  color: rgb(255, 255, 255);
+  color: rgb(213, 213, 213);
   font-family: "Courier New", Courier, monospace;
-  overflow: none;
+  overflow: scroll;
 }
 
 h1 {
   font-weight: 100;
-  border: 2px solid rgb(100, 86, 255);
+  border: 5px solid; /* Adjust the thickness as needed */
+  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
   font-size: 100px;
   text-align: center;
   padding: 0;
   margin: 0;
-  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ h1 {
 .placeholder {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 60px;
   text-align: center;
   margin-top: 10px;
   width: 100%;
@@ -35,11 +35,43 @@ h1 {
   max-width: 50%;
 }
 
+.right-place h2 {
+    border: 5px solid; /* Adjust the thickness as needed */
+    border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+}
+
+.right-place p {
+    border: 5px solid; /* Adjust the thickness as needed */
+    border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+}
+
+.left-place h2 {
+    border: 5px solid; /* Adjust the thickness as needed */
+    border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+}
+
+.left-place p {
+    border: 5px solid; /* Adjust the thickness as needed */
+    border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.second-span {
+    font-weight: 550;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 h2 {
-  font-weight: 100;
+  font-weight: 700;
   margin: 0;
   padding: 30px;
-  border: 2px solid rgb(100, 86, 255);
+  border: 5px solid; /* Adjust the thickness as needed */
+  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
   margin-top: 10px;
   font-size: 50px;
   box-sizing: border-box;
@@ -48,14 +80,16 @@ h2 {
 
 p {
   padding: 10px;
-  border: 2px solid rgb(100, 86, 255);
+  border: 5px solid; /* Adjust the thickness as needed */
+  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
   font-size: 20px;
 }
 
 button {
   font-family: "Courier New", Courier, monospace;
   color: rgb(255, 255, 255);
-  border: 2px solid rgb(100, 86, 255);
+  border: 5px solid; /* Adjust the thickness as needed */
+  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
   text-decoration: none;
   background-color: black;
 }
