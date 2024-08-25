@@ -7,8 +7,9 @@ body {
 
 h1 {
   font-weight: 100;
-  border: 5px solid; /* Adjust the thickness as needed */
-  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+  border: 5px solid;
+  border-color: #5e5e5e;
+  border-radius: 10px;
   font-size: 75px;
   text-align: center;
   padding: 2%;
@@ -16,6 +17,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#bio {
+  font-size: 27px
 }
 
 .placeholder {
@@ -44,8 +49,9 @@ h2 {
   font-weight: 100;
   margin: 0;
   padding: 30px;
-  border: 5px solid; /* Adjust the thickness as needed */
-  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+  border: 5px solid;
+  border-color: #5e5e5e;
+  border-radius: 10px;
   margin-top: 10px;
   font-size: 50px;
   box-sizing: border-box;
@@ -59,12 +65,14 @@ article {
 p {
   font-weight: 100;
   padding: 2%;
-  border: 5px solid; /* Adjust the thickness as needed */
-  border-image: linear-gradient(to left, #6c56ff, #d256ff) 1;
+  border: 5px solid;
+  border-color: #5e5e5e;
+  border-radius: 10px;
   font-size: 20px;
 }
 
 a {
+  font-size: 30px;
   color: white;
   text-decoration: none;
 }
