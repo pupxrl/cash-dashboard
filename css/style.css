@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: rgb(234, 234, 234);
+  background-color: rgb(20, 12, 60);
+  color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   overflow: scroll;
 }
@@ -8,8 +8,8 @@ body {
 h1 {
   font-weight: 100;
   border: 2px solid;
-  border-color: #5e5e5e;
-  border-radius: 10px;
+  border-color: #ffffff;
+  border-radius: 1px;
   font-size: 75px;
   text-align: center;
   padding: 2%;
@@ -50,8 +50,8 @@ h2 {
   margin: 0;
   padding: 30px;
   border: 2px solid;
-  border-color: #5e5e5e;
-  border-radius: 10px;
+  border-color: #ffffff;
+  border-radius: 1px;
   margin-top: 10px;
   font-size: 50px;
   box-sizing: border-box;
@@ -66,8 +66,8 @@ p {
   font-weight: 100;
   padding: 2%;
   border: 2px solid;
-  border-color: #5e5e5e;
-  border-radius: 10px;
+  border-color: #ffffff;
+  border-radius: 1px;
   font-size: 20px;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 a:hover {
-  color: rgb(88, 88, 88);
+  color: rgb(85, 38, 197);
 }
 
 footer {
