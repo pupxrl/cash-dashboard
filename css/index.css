@@ -1,3 +1,128 @@
+/* General Body Styling */
 body {
-    overflow: hidden;
+  background-color: rgb(29, 30, 45);
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+/* Headers */
+h1 {
+  -webkit-user-select: none; /* For Safari and older Chrome */
+  -moz-user-select: none;    /* For older Firefox */
+  -ms-user-select: none;     /* For older Internet Explorer/Edge */
+  user-select: none;         /* Standard property */
+  font-weight: 100;
+  font-size: 75px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 1%;
+  width: auto; /* Adjust width to fit content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Remove extra spacing */
+}
+
+footer h3 {
+  -webkit-user-select: none; /* For Safari and older Chrome */
+  -moz-user-select: none;    /* For older Firefox */
+  -ms-user-select: none;     /* For older Internet Explorer/Edge */
+  user-select: none;         /* Standard property */
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 10px; /* Space below h1 */
+  padding: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+/* Paragraphs */
+p {
+  font-weight: 100;
+  font-size: 20px;
+  padding: 2%;
+  border: 2px solid #b5b5b5;
+  border-radius: 5px;
+}
+
+/* Spans */
+span {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.second-span {
+  font-weight: 400;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* Links */
+a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(101, 78, 156);
+}
+
+/* Images */
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0;
+}
+
+/* Containers */
+.placeholder {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+article {
+  margin: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column; /* Ensure h3 elements stack */
+  justify-content: center; /* Vertically center */
+  align-items: center; /* Horizontally center */
+  gap: 10px; /* Space between h3 elements */
+  width: 100%; /* Full width for proper alignment */
+  text-align: center; /* Center text within each h3 */
+  margin: 0; /* Remove extra spacing */
+  padding: 0;
+}
+
+
+/* Miscellaneous */
+#bio {
+  font-size: 27px;
+}
+
+#clip {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  margin: 5px;
 }
