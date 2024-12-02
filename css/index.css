@@ -1,4 +1,3 @@
-/* General Body Styling */
 body {
   background-color: rgb(29, 30, 45);
   color: rgb(255, 255, 255);
@@ -8,36 +7,35 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   overflow: hidden;
 }
 
-/* Headers */
 h1 {
-  -webkit-user-select: none; /* For Safari and older Chrome */
-  -moz-user-select: none;    /* For older Firefox */
-  -ms-user-select: none;     /* For older Internet Explorer/Edge */
-  user-select: none;         /* Standard property */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   font-weight: 100;
   font-size: 75px;
   text-align: center;
   border-radius: 5px;
   padding: 30px 1%;
-  width: auto; /* Adjust width to fit content */
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0; /* Remove extra spacing */
+  margin: 0;
 }
 
 footer h3 {
-  -webkit-user-select: none; /* For Safari and older Chrome */
-  -moz-user-select: none;    /* For older Firefox */
-  -ms-user-select: none;     /* For older Internet Explorer/Edge */
-  user-select: none;         /* Standard property */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   font-weight: 200;
   font-size: 30px;
-  margin-top: 10px; /* Space below h1 */
+  margin-top: 10px;
   padding: 0;
   text-align: center;
 }
@@ -46,7 +44,6 @@ h2 {
   font-size: 50px;
 }
 
-/* Paragraphs */
 p {
   font-weight: 100;
   font-size: 20px;
@@ -55,7 +52,6 @@ p {
   border-radius: 5px;
 }
 
-/* Spans */
 span {
   text-decoration: underline;
   font-size: 30px;
@@ -67,7 +63,6 @@ span {
   text-decoration: none;
 }
 
-/* Links */
 a {
   font-size: 30px;
   color: white;
@@ -78,7 +73,6 @@ a:hover {
   color: rgb(101, 78, 156);
 }
 
-/* Images */
 img {
   height: 50px;
   width: 50px;
@@ -86,7 +80,6 @@ img {
   bottom: 0;
 }
 
-/* Containers */
 .placeholder {
   display: flex;
   justify-content: space-between;
@@ -104,18 +97,16 @@ article {
 
 footer {
   display: flex;
-  flex-direction: column; /* Ensure h3 elements stack */
-  justify-content: center; /* Vertically center */
-  align-items: center; /* Horizontally center */
-  gap: 10px; /* Space between h3 elements */
-  width: 100%; /* Full width for proper alignment */
-  text-align: center; /* Center text within each h3 */
-  margin: 0; /* Remove extra spacing */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
   padding: 0;
 }
 
-
-/* Miscellaneous */
 #bio {
   font-size: 27px;
 }
